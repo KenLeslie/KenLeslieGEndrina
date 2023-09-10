@@ -1,0 +1,107 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #deeppink;
+    color: #000000; /* Indigo */
+    text-align: center;
+    background-image: url('ccy2fky3y6j71.jpg'); /* Replace with your own background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 30px;
+}
+
+/* Style the header */
+header {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #000000; /* Dark Violet */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00ff00; /* Lime Green */
+    font-weight: bold;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+    background-color: #20b2aa; /* Light Sea Green */
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* Style headings */
+h1, h2, h3, h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #00ff7f; /* Spring Green */
+}
+
+h2 {
+    color: #ffd700; /* Gold */
+}
+
+h3 {
+    color: #008b8b; /* Dark Cyan */
+}
+
+h4 {
+    color: #9932cc; /* Dark Orchid */
+}
+
+/* Style the footer */
+footer {
+    background-color: #000; /* Black */
+    color: #adff2f; /* Green Yellow */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the hyperlinks */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add a One Piece logo watermark */
+body::before {
+    content: '';
+    background-image: url('ccy2fky3y6j71.jpg'); /* Replace with a One Piece logo image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+}
